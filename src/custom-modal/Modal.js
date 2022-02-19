@@ -16,4 +16,4 @@ const Modal = ({ openModal, children, closeModal }) => {
     )
 }
 
-export default Modal
+export default Modal;
