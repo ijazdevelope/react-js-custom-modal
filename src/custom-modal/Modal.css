@@ -1,0 +1,22 @@
+.model_overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  padding: 0 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.model_content {
+    max-width: 600px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background: #fff;
+}
+button.close_btn{
+    top: 1rem;
+    right: 1rem;
+    
+}
