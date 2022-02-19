@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import './App.css';
 import Modal from './custom-modal/Modal';
+import ModalChildren from './custom-modal/ModalChildren';
 
 function App() {
 
-  const [openModal, setOpenModal] = useState(true);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
-      <Modal
+      <ModalChildren
         openModal={openModal}
         closeModal={() => setOpenModal(false)}
       />
